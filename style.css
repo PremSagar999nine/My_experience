@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    background:  #202020;
+    font-size: 62.5%;
+}
+header{
+    height: 20%;
+}
+main{
+    height: 60%;
+}
+footer{
+    font-size: small;
+    height: 20%;
+}
+.achor_top{
+    margin: 5rem;
+    padding: -5rem;
+    font-size: large;
+    border: yellow;   
+}
+h1{
+    padding: 0.8rem,0rem,0rem,0rem;    
+    font-style:italic;
+    text-align: center;
+    font-size: xx-large;
+}
+h1,h2{
+    color:white;
+}
+p{
+    color: rgb(260, 260 260);
+}
+.navbar{
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    font-style: initial;
+    font-size: large;
+    list-style: none;
+}
+.heading2{
+    margin:3rem;
+    font-size: x-large;
+}
+.ele_icon{
+    height: 5rem;
+display: flex;
+justify-content: top;
+float: left;
+}
+.ele_icon2{
+    height: 5rem;
+display: flex;
+justify-content: top;
+float: right;
+}
+.title_heading{
+    text-decoration: none;
+}
+main{
+    background-color: rgb(13, 13, 13);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    border-radius: 2rem;
+    font-size: medium;
+}
+.box_1,.box_2,.box_3{
+}
+.box_1{
+    background-color:white;
+    border-radius: 5rem;
+    min-height: 20rem;
+    max-height: max-content;
+    padding: 3rem;
+    margin: 2rem;
+
+}
+.box_2{
+    background-color: white;
+    border-radius: 5rem;
+    min-height: 20rem;
+    max-height: max-content;
+    padding: 3rem;
+    margin: 2rem;
+    color: black;
+}
+.box_3{
+    background-color:white;
+    border-radius: 5rem;
+    min-height: 20rem;
+    max-height: max-content;
+    padding: 3rem;
+    margin: 2rem;
+    color: black;
+}
+footer{
+    padding: 0.5rem;
+    height: 6rem;
+    background-color: gold;
+}
+button{
+    padding: 0.3rem;
+    font-size: small;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: none;
+    color: rgb(100, 150, 240);
+    cursor: pointer;    
+}
+button:hover{
+    background: gold;
+    padding: 0.4rem;
+}
+
+.submit{
+margin-left: 10rem;
+}
+.ckt_ret{
+    margin: 1rem;
+    height: 12rem;
+}
+.ckt_ret:hover{
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.blog_ckt1{
+    background-color:white;
+    border-radius: 5rem;
+    height: auto;
+    padding: 3rem;
+    margin: 2rem;   
+}
+.ckt1_dig1{
+max-width: 20rem;
+}
+.ckt1_dig1:hover{
+    padding: 0.8rem;
+    cursor: pointer;
+    
+}
+.footer_icons{
+    margin: 1;
+    max-width: 2.5rem;
+}
+.footer_icons:hover{
+    padding: 0.2rem;
+    cursor: pointer;
+}
+.footer_content{
+    display: flex;
+    justify-content: right;
+}
+
+.me_img{
+    margin: 0;
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+ }
+ .Img_prem{
+    border-radius: 50%;
+ }
+ .me_cont{
+    
+    display: flex;
+    justify-content: left;
+}
